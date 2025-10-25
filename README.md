@@ -5,7 +5,7 @@ The goal is to predict whether a loan applicant is likely to be a *good* or *bad
 
 ---
 
-## 🧭 Project Overview
+## 📋 Project Overview
 
 **Pipeline summary:**
 1. **EDA:** dataset inspection, class balance, and feature typing.  
@@ -65,7 +65,7 @@ jupyter notebook notebooks/01_eda.ipynb
 
 ---
 
-## 🧠 Notes
+## 📝 Notes
 
 - `StratifiedKFold` ensures balanced folds for the binary target.  
 - Randomized search (40 iterations) achieved ROC-AUC ≈ 0.79.  

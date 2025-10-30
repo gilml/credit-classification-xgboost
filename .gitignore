@@ -1,21 +1,30 @@
-# virtual environments
+# Virtual environments
 .venv/
 env/
 venv/
 
-# python cache
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# jupyter
+# Jupyter notebooks
 .ipynb_checkpoints/
 
-# mac / system files
-.DS_Store
-
-# logs
-*.log
-
-# data (keep folder but ignore actual CSVs)
-data/*
+# Data
+data/
 !data/.gitkeep
+
+# Models
+models/
+!models/.gitkeep
+
+# System / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs / reports
+*.log
+reports/figures/

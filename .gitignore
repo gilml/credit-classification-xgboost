@@ -18,6 +18,9 @@ data/
 
 # Models
 models/
+*.joblib
+*.pkl
+/models/
 !models/.gitkeep
 
 # System / IDE
